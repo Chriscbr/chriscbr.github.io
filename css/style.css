@@ -108,7 +108,7 @@ body.demo-two{
 
 }
 .text-twitter-alt:hover, .text-facebook-alt:hover, .text-linkedin-alt:hover, .text-google-alt:hover, 
-.text-github-alt:hover{
+.text-github-alt:hover, .text-email-alt:hover{
     background: #fff;
     border-color: #fff;
 }
