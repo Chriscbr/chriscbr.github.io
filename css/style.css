@@ -89,13 +89,18 @@ Portfolio
   background-color: #0043af;
   box-shadow: 0 0 2rem rgba(0, 0, 0, .5);
 }*/
-
+.wheresbabyberk {
+  background-color: #2998D9;
+}
+.elemental-2048 {
+  background-color: #888;
+}
 div.portfolio {
   transform: translateZ(0);
   position: relative;
-  background-color: #2998D9;
   box-shadow: 0 0 2rem rgba(0, 0, 0, .5);
   z-index: 2;
+  padding: -4em 0;
 }
 div.portfolio-link {
   text-align:center;
@@ -130,6 +135,14 @@ div.portfolio-link i {
   text-decoration: none;
 }
 
+div.portfolio2 {
+  transform: translateZ(0);
+  position: relative;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, .5);
+  background-color: #2998D9;
+  z-index: 1;
+}
+
 /*
  * Footer
  */
@@ -158,7 +171,7 @@ div.portfolio-link i {
 
 /*
  * Parallax
- * Code from https://keithclark.co.uk/articles/pure-css-parallax-websites/
+ * Code from https://alligator.io/css/pure-css-parallax/
  */
 .wrapper {
   /* The height needs to be set to a fixed value for the effect to work.
@@ -193,8 +206,8 @@ div.portfolio-link i {
   /* Move the pseudo-element back away from the camera,
    * then scale it back up to fill the viewport.
    * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
-  -webkit-transform: translateZ(-300px) scale(2);
-  transform: translateZ(-300px) scale(2);
+  -webkit-transform: translateZ(-240px) scale(1.8);
+  transform: translateZ(-240px) scale(1.8);
   /* Force the background image to fill the whole element. */
   /*background-size: 100%;*/
   /* Keep the image from overlapping sibling elements. */ 
@@ -202,7 +215,17 @@ div.portfolio-link i {
   height: 100%;
 }
 
-.about::after {
+.spacer {
+  margin: -10em 0;
+  padding: 11.5em 0;
+}
+
+.footer {
+  margin: -2em 0;
+  padding: 3em 0 0.5em 0;
+}
+
+.spacer::after, .about::after {
   width: 100%;
   background: repeating-linear-gradient(10deg,
     transparent,
