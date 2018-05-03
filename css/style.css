@@ -107,6 +107,10 @@ div.portfolio-link {
   margin-right: auto;
   z-index: 5;
   display: block;
+  text-decoration: none;
+}
+div.portfolio-link a:hover {
+    text-decoration: none;
 }
 div.portfolio-link div {
   display: block;
@@ -119,11 +123,11 @@ div.portfolio-link div {
   font-size: 125%;
   color: #fff;
 }
-
 div.portfolio-link i {
   display: block;
   color: #2998D9;
-  margin: 0 auto;
+  margin: 0.5em auto;
+  text-decoration: none;
 }
 
 /*
@@ -232,39 +236,36 @@ div.portfolio-link i {
 /*
  * Icons
   */
-[class^="ion-"]{
-    font-size: 24px;
+
+.fa-twitter, .fa-github, .fa-linkedin, .fa-envelope, .fa-file-alt {
+    color: black;
+}
+.fa-stack .icon-bg {
+    opacity: 0.0;
+    color: black;
+}
+.fa-stack .icon-fg {
+    color: white;
 }
 
-.text-twitter-alt, .text-email-alt, .text-linkedin-alt, .text-google-alt, .text-github-alt, .text-resume-alt{
-    color:#000;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    display: inline-block;
-    line-height: 40px;
-
+.fa-stack:hover .fa-twitter {
+    color: #00aced;
 }
-.text-twitter-alt:hover, .text-linkedin-alt:hover, .text-google-alt:hover, 
-.text-github-alt:hover, .text-email-alt:hover, .text-resume-alt:hover{
-    background: #000;
-    border-color: #000;
-}
-.text-twitter, .text-twitter-alt:hover{
-    color:#00aced;
-}
-.text-google, .text-google-alt:hover{
-    color: #dd4b39;
-}
-.text-linkedin, .text-linkedin-alt:hover{
-    color: #00a0dc;
-}
-.text-github, .text-github-alt:hover{
+.fa-stack:hover .fa-github {
     color: #fff;
 }
-.text-email, .text-email-alt:hover{
-  color: #fff;
+.fa-stack:hover .fa-linkedin {
+    color: #00a0dc;
 }
-.text-resume, .text-resume-alt:hover{
-  color: #fff;
+.fa-stack:hover .fa-envelope {
+    color: #fff;
+}
+.fa-stack:hover .fa-file-alt {
+    color: #fff;
+}
+.fa-stack:hover .icon-bg {
+    opacity: 1.0;
+}
+.fa-stack:hover .icon-fg {
+    color: black;
 }
