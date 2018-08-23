@@ -98,7 +98,6 @@ Portfolio
 div.portfolio {
   transform: translateZ(0);
   position: relative;
-  box-shadow: 0 0 2rem rgba(0, 0, 0, .5);
   z-index: 2;
   padding: -4em 0;
 }
@@ -133,14 +132,6 @@ div.portfolio-link i {
   color: #2998D9;
   margin: 0.5em auto;
   text-decoration: none;
-}
-
-div.portfolio2 {
-  transform: translateZ(0);
-  position: relative;
-  box-shadow: 0 0 2rem rgba(0, 0, 0, .5);
-  background-color: #2998D9;
-  z-index: 1;
 }
 
 /*
@@ -216,8 +207,8 @@ div.portfolio2 {
 }
 
 .spacer {
-  margin: -10em 0;
-  padding: 11.5em 0;
+  margin: -1.5em 0; /* change to -x, +x+2 for a parallax between areas */
+  padding: 1.5em 0;
 }
 
 .footer {
@@ -250,11 +241,33 @@ div.portfolio2 {
  * Pictures
  */
 .screenshot {
-  max-height: 60vh;
+  max-height: 40vh;
   max-width: 100%;
-  display: block;
-  margin: 0 auto;
+  padding-left: 10vh;
+  padding-right: 5vh;
+  float: right;
 }
+
+@media (max-width: 992px) {
+  /* For mobile phones: */
+  .screenshot {
+    max-height: 60vh;
+    max-width: 100%;
+    padding-left: 0vh;
+    padding-right: 0vh;
+    float: none;
+    display: block;
+    margin: 0 auto 1.5vh auto;
+  }
+}
+
+@media (max-width: 992px) {
+  /* For mobile phones: */
+  .portfolio-item-title {
+    text-align: center;
+  }
+}
+
 
 /*
  * Icons
