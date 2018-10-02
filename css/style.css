@@ -28,6 +28,9 @@ body {
 .introduction {
   transform: translateZ(0);
   margin: 0 auto;
+}
+
+.introduction-gradient {
   background: radial-gradient(rgba(255,255,255, 1), rgba(255,255,255, 0.8), rgba(255,255,255,0));
 }
 
@@ -60,6 +63,10 @@ div.portfolio {
     left:0px;
     margin-left:0px;
   }
+}
+
+img.headshot {
+    width: 30vh;
 }
 
 /*
