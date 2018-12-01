@@ -100,7 +100,10 @@ Portfolio
   background-color: #2998D9;
 }
 .elemental-2048 {
-  background-color: #888;
+  background-color: rgb(219, 69, 69);
+}
+.fastcatch {
+  background-color: rgb(138, 41, 217);
 }
 div.portfolio {
   transform: translateZ(0);
