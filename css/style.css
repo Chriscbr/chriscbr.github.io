@@ -99,6 +99,9 @@ Portfolio
 .wheresbabyberk {
   background-color: #2998D9;
 }
+.playwithme {
+  background-color: rgb(62, 190, 68);
+}
 .elemental-2048 {
   background-color: rgb(219, 69, 69);
 }
@@ -255,7 +258,14 @@ div.portfolio-link i {
   max-width: 100%;
   padding-left: 10vh;
   padding-right: 5vh;
+}
+
+.screenshot-right {
   float: right;
+}
+
+.screenshot-left {
+  float: left;
 }
 
 @media (max-width: 992px) {
