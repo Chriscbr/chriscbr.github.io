@@ -38,7 +38,7 @@
       <div class="row">
         <main role="main" class="introduction text-center">
           <img src="img/headshot.jpg" alt="Headshot" class="rounded-circle img-fluid headshot">
-          <div class="introduction-gradient mt-2">
+          <div class="introduction-gradient pt-3 px-3">
             <h1>Christopher Rybicki.</h1>
             <p class="lead my-0">Computer Science & Mathematics Major</p>
             <p class="lead my-0">University of Massachusetts, Amherst</p>
@@ -86,10 +86,30 @@
 
     <div class="portfolio not-parallax section" id="portfolio">
       <div class="d-md-flex flex-md-equal w-100">
+        <div class="py-3 px-3 py-md-5 px-md-5 w-100 overflow-hidden scheme-to-wasm">
+          <img class="screenshot screenshot-left" src="img/scheme-to-wasm.png" alt="Scheme to WebAssembly screenshot"/>
+          <h2 class="display-5 text-black font-weight-bold portfolio-item-title">Scheme to WebAssembly</h2>
+          <p class="text-black mb-2">
+            scheme-to-wasm is a compiler I built that translates code from a subset of Scheme to WebAssembly.
+            I build this as part of my undergraduate senior thesis, where I researched techniques needed to extend compilers with type safety through all intermediate code transformations.
+            The source language currently supports primitive values, control structures, variable assignment, lists, tuples, records, and user-defined higher-order functions.
+            While this adds up to a whopping 5000 lines of Rust and 200 unit tests, it was a lot of fun to build!
+          </p>
+          <p class="text-black">Check out the <a class="text-black" href="https://github.com/Chriscbr/scheme-to-wasm"><u>GitHub repository</u></a>.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio not-parallax section" id="portfolio">
+      <div class="d-md-flex flex-md-equal w-100">
         <div class="py-3 px-3 py-md-5 px-md-5 w-100 overflow-hidden playwithme">
           <img class="screenshot screenshot-right" src="img/playwithme.png" alt="PlayWithMe screenshot"/>
           <h2 class="display-5 text-white font-weight-bold portfolio-item-title">PlayWithMe</h2>
-          <p class="text-white mb-2">PlayWithMe is a web app developed on top of Django and SQLite which connects gamers looking to play games together online or in person. It allows users to create and search for different "sessions" by game, location, and console, and then communicate with other members via an online chat. My five teammates and I poured dozens of hours into planning, prototyping, and developing this idea, and we all had a great time pitching the design in front of our class of 200 students!</p>
+          <p class="text-white mb-2">
+            PlayWithMe is a web app developed on top of Django and SQLite which connects gamers looking to play together online or in person.
+            It allows users to create and search for different "sessions" by game, location, and console, and then communicate with other members via an online chat.
+            My five teammates and I poured dozens of hours into planning, prototyping, and developing this idea, and we all had a great time pitching the design in front of our class of 200 students, where our project was voted best pitch!
+          </p>
           <p class="text-white">Check out the <a class="text-white" href="https://github.com/yusufsezer/PlayWithMe"><u>GitHub repository</u></a>.</p>
         </div>
       </div>
@@ -102,7 +122,10 @@
         <div class="py-3 px-3 py-md-5 px-md-5 w-100 overflow-hidden wheresbabyberk">
           <img class="screenshot screenshot-left" src="img/wheresbabyberk.png" alt="Where's BabyBerk screenshot"/>
           <h2 class="display-5 text-white font-weight-bold portfolio-item-title">Where's BabyBerk</h2>
-          <p class="text-white mb-2">Where's BabyBerk is a responsive webapp that allows students on the UMass campus to check at a glance where the "BabyBerk" foodtrucks are, where they will be, and what food they are serving. Where's BabyBerk uses a NodeJS backend which, using the Twitter API, obtains the most recent tweets about BabyBerk, parses them with natural language processing libraries, and logically interprets them based on their recency.</p>
+          <p class="text-white mb-2">
+            Where's BabyBerk is a responsive webapp that allows students on the UMass campus to check at a glance where the "BabyBerk" foodtrucks are, where they will be, and what food they are serving.
+            Where's BabyBerk operates by using a NodeJS backend to process tweets retrieved from the Twitter API. It parses tweets using natural language processing libraries, and logically interprets them based on the tweets' content and recency.
+          </p>
           <p class="text-white">Visit <a class="text-white" href="http://www.wheresbabyberk.com"><u>Where's Babyberk</u></a>, or check out the <a class="text-white" href="https://github.com/Chriscbr/WheresBabyBerk"><u>GitHub repository</u></a>.</p>
         </div>
       </div>
@@ -115,7 +138,12 @@
         <div class="py-3 px-3 py-md-5 px-md-5 w-100 overflow-hidden elemental-2048">
           <img class="screenshot screenshot-right" src="img/elemental2048.png" alt="Elemental 2048 screenshot"/>
           <h2 class="display-5 text-white font-weight-bold portfolio-item-title">Elemental 2048</h2>
-          <p class="text-white mb-2">Elemental 2048 is a remix of the viral block-sliding game 2048 (written in JavaScript), with additional rules for added complexity. Players work with grass, fire, and water blocks which combine when the moving block "beats" the other. In addition, players can plan out their moves with the "next tile" indicator, and the knowledge that new tiles will always spawn on the side opposite from where they last moved. I've never beaten my game personally but I believe it might be possible with enough practice!</p>
+          <p class="text-white mb-2">
+            Elemental 2048 is a remix of the viral block-sliding game 2048 (written in JavaScript), with additional rules for added complexity.
+            Players work with grass, fire, and water blocks which combine whenever one moving block "beats" the other (a la rock paper scissors).
+            In addition, using the "next tile" indicator at the top of the screen, players can predict what kind of tile will appear next (and on which side of the board it will appear).
+            I've actually never beaten this game, but I believe it might be possible with enough practice!
+          </p>
           <p class="text-white">Try playing <a class="text-white" href="http://rybicki.io/Elemental-2048/"><u>Elemental 2048</u></a>, or check out the <a class="text-white" href="https://github.com/Chriscbr/Elemental-2048"><u>GitHub repository</u></a>.</p>
         </div>
       </div>
@@ -128,14 +156,18 @@
         <div class="py-3 px-3 py-md-5 px-md-5 w-100 overflow-hidden fastcatch">
           <img class="screenshot screenshot-left" src="img/fastcatch.png" alt="Fastcatch screenshot"/>
           <h2 class="display-5 text-white font-weight-bold portfolio-item-title">fastcatch</h2>
-          <p class="text-white mb-2">fastcatch is a fast-paced, monochromatic arcade game developed using vanilla HTML5 canvas and JavaScript, with support for accelerometer-based controls on mobile devices. In this game, you control a paddle using the arrow keys (or by tilting your phone) to try and guide a ball towards targets for points. I developed this game all the way back in high school, but it still functions well as an example of accelerometer-based user input on the web (even if you look silly while playing the game)!</p>
+          <p class="text-white mb-2">
+            fastcatch is a fast-paced, monochromatic arcade game developed using vanilla HTML5 canvas and JavaScript, with support for accelerometer-based controls on mobile devices. 
+            In this game, you control a paddle using the arrow keys (or by tilting your phone) to try and guide a ball towards targets for points.
+            I developed this game back in high school, but it still serves as a fun use case for accelerometer-based user input on the web (even if you look silly while playing)!
+          </p>
           <p class="text-white">Try playing <a class="text-white" href="http://rybicki.io/fastcatch/"><u>fastcatch</u></a>, or check out the <a class="text-white" href="https://github.com/Chriscbr/fastcatch"><u>GitHub repository</u></a>.</p>
         </div>
       </div>
     </div>
 
-    <div class="footer text-center">
-      <p>© Copyright Christopher Rybicki 2018</p>
+    <div class="footer text-center introduction-gradient">
+      <p>© Copyright Christopher Rybicki 2020</p>
     </div>
 
     </div>
