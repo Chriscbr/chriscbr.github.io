@@ -22,6 +22,17 @@ body {
   font-family: 'Noto Sans', serif;
 }
 
+.button-black {
+  border: 2px solid #212529;
+  padding: 3px 5px 3px 5px;
+}
+
+.button-white {
+  border: 2px solid #fff;
+  padding: 3px 5px 3px 5px;
+  margin: 0 5px 0 5px;
+}
+
 /*
  * About
  */
@@ -261,6 +272,7 @@ div.portfolio-link i {
   max-width: 100%;
   padding-left: 10vh;
   padding-right: 5vh;
+  padding-bottom: 1vh;
 }
 
 .screenshot-right {
@@ -282,12 +294,13 @@ div.portfolio-link i {
     display: block;
     margin: 0 auto 1.5vh auto;
   }
-}
-
-@media (max-width: 992px) {
-  /* For mobile phones: */
   .portfolio-item-title {
     text-align: center;
+  }
+  .portfolio-button-list {
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
   }
 }
 
