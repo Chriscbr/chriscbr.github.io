@@ -25,6 +25,7 @@ body {
 .button-black {
   border: 2px solid #212529;
   padding: 3px 5px 3px 5px;
+  margin: 0 5px 0 5px;
 }
 
 .button-white {
@@ -41,7 +42,7 @@ body {
   margin: 0 auto;
 }
 
-.introduction-gradient {
+.white-radial-gradient-bg {
   background: radial-gradient(rgba(255,255,255, 1), rgba(255,255,255, 0.8), rgba(255,255,255,0));
 }
 
@@ -77,7 +78,7 @@ div.portfolio {
 }
 
 img.headshot {
-    width: 30vh;
+    width: 15em;
 }
 
 /*
@@ -103,10 +104,6 @@ img.headshot {
 /*
 Portfolio
 */
-/*.portfolio {
-  background-color: #0043af;
-  box-shadow: 0 0 2rem rgba(0, 0, 0, .5);
-}*/
 .scheme-to-wasm {
   background-color: #FACB0E;
 }
@@ -240,7 +237,7 @@ div.portfolio-link i {
 
 .footer {
   margin: -2em 0;
-  padding: 3em 0 0.5em 0;
+  padding: 3em 0 1em 0;
 }
 
 .spacer::after, .about::after {
@@ -268,19 +265,10 @@ div.portfolio-link i {
  * Pictures
  */
 .screenshot {
-  max-height: 40vh;
+  max-height: 20em;
   max-width: 100%;
-  padding-left: 10vh;
-  padding-right: 5vh;
-  padding-bottom: 1vh;
-}
-
-.screenshot-right {
-  float: right;
-}
-
-.screenshot-left {
-  float: left;
+  display: block;
+  margin: 0 auto;
 }
 
 @media (max-width: 992px) {

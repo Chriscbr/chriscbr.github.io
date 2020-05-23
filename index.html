@@ -38,10 +38,10 @@
       <div class="row">
         <main role="main" class="introduction text-center">
           <img src="img/headshot.jpg" alt="Headshot" class="rounded-circle img-fluid headshot">
-          <div class="introduction-gradient pt-3 px-3">
+          <div class="white-radial-gradient-bg pt-3 px-3">
             <h1>Christopher Rybicki.</h1>
             <p class="lead my-0">Computer Science & Mathematics Major</p>
-            <p class="lead my-0">University of Massachusetts, Amherst</p>
+            <p class="lead my-0">University of Massachusetts Amherst</p>
             <!-- <p class="lead"> View my resume
               <a href="https://drive.google.com/file/d/0B3xSZ9hzF4ZERVVSM3k2eG5xTTQ/view?usp=sharing"><u>here</u></a>.
             </p> -->
@@ -84,10 +84,12 @@
       <a href="#portfolio" id="arrow-button"><i class="fas fa-arrow-alt-circle-down no-underline" aria-hidden="true"></i></a>
     </div>
 
-    <div class="portfolio not-parallax section" id="portfolio">
-      <div class="d-md-flex flex-md-equal w-100">
-        <div class="py-3 px-3 py-md-5 px-md-5 w-100 overflow-hidden scheme-to-wasm">
-          <img class="screenshot screenshot-left" src="img/scheme-to-wasm.png" alt="Scheme to WebAssembly screenshot"/>
+    <div class="portfolio section d-md-flex" id="portfolio">
+      <div class="row mx-0 py-3 px-3 py-md-5 px-md-5 w-100 scheme-to-wasm">
+        <div class="col-lg-6">
+          <img class="screenshot" src="img/scheme-to-wasm.png" alt="Scheme to WebAssembly screenshot"/>
+        </div>
+        <div class="col-lg-6">
           <h2 class="display-5 text-black font-weight-bold portfolio-item-title">Scheme to WebAssembly</h2>
           <p class="text-black mb-3">
             scheme-to-wasm is a compiler I built that translates code from a subset of Scheme to WebAssembly.
@@ -97,14 +99,20 @@
           </p>
           <div class="portfolio-button-list">
             <a class="button-black text-black" href="https://github.com/Chriscbr/scheme-to-wasm">Visit GitHub repository</a>
+            <a class="button-black text-black" href="https://works.bepress.com/christopher_rybicki/1/">Read thesis</a>
           </div>
+        </div>
       </div>
     </div>
 
-    <div class="portfolio not-parallax section" id="portfolio">
-      <div class="d-md-flex flex-md-equal w-100">
-        <div class="py-3 px-3 py-md-5 px-md-5 w-100 overflow-hidden playwithme">
-          <img class="screenshot screenshot-right" src="img/playwithme.png" alt="PlayWithMe screenshot"/>
+    <div class="spacer parallax section"></div>
+
+    <div class="portfolio section d-md-flex" id="portfolio">
+      <div class="row mx-0 py-3 px-3 py-md-5 px-md-5 w-100 playwithme">
+        <div class="col-lg-6 order-lg-2">
+          <img class="screenshot" src="img/playwithme.png" alt="PlayWithMe screenshot"/>
+        </div>
+        <div class="col-lg-6 order-lg-1">
           <h2 class="display-5 text-white font-weight-bold portfolio-item-title">PlayWithMe</h2>
           <p class="text-white mb-3">
             PlayWithMe is a web app developed on top of Django and SQLite which connects gamers looking to play together online or in person.
@@ -120,10 +128,12 @@
 
     <div class="spacer parallax section"></div>
 
-    <div class="portfolio not-parallax section" id="portfolio">
-      <div class="d-md-flex flex-md-equal w-100">
-        <div class="py-3 px-3 py-md-5 px-md-5 w-100 overflow-hidden wheresbabyberk">
-          <img class="screenshot screenshot-left" src="img/wheresbabyberk.png" alt="Where's BabyBerk screenshot"/>
+    <div class="portfolio section d-md-flex" id="portfolio">
+      <div class="row mx-0 py-3 px-3 py-md-5 px-md-5 w-100 wheresbabyberk">
+        <div class="col-lg-6">
+          <img class="screenshot" src="img/wheresbabyberk.png" alt="Where's BabyBerk screenshot"/>
+        </div>
+        <div class="col-lg-6">
           <h2 class="display-5 text-white font-weight-bold portfolio-item-title">Where's BabyBerk</h2>
           <p class="text-white mb-3">
             Where's BabyBerk is a responsive webapp that allows students on the UMass campus to check at a glance where the "BabyBerk" foodtrucks are, where they will be, and what food they are serving.
@@ -139,10 +149,12 @@
 
     <div class="spacer parallax section"></div>
 
-    <div class="portfolio not-parallax section">
-      <div class="d-md-flex flex-md-equal w-100">
-        <div class="py-3 px-3 py-md-5 px-md-5 w-100 overflow-hidden elemental-2048">
-          <img class="screenshot screenshot-right" src="img/elemental2048.png" alt="Elemental 2048 screenshot"/>
+    <div class="portfolio section d-md-flex" id="portfolio">
+      <div class="row mx-0 py-3 px-3 py-md-5 px-md-5 w-100 elemental-2048">
+        <div class="col-lg-6 order-lg-2">
+          <img class="screenshot" src="img/elemental2048.png" alt="Elemental 2048 screenshot"/>
+        </div>
+        <div class="col-lg-6 order-lg-1">
           <h2 class="display-5 text-white font-weight-bold portfolio-item-title">Elemental 2048</h2>
           <p class="text-white mb-3">
             Elemental 2048 is a remix of the viral block-sliding game 2048 (written in JavaScript), with additional rules for added complexity.
@@ -160,10 +172,12 @@
 
     <div class="spacer parallax section"></div>
 
-    <div class="portfolio not-parallax section">
-      <div class="d-md-flex flex-md-equal w-100">
-        <div class="py-3 px-3 py-md-5 px-md-5 w-100 overflow-hidden fastcatch">
-          <img class="screenshot screenshot-left" src="img/fastcatch.png" alt="Fastcatch screenshot"/>
+    <div class="portfolio section d-md-flex" id="portfolio">
+      <div class="row mx-0 py-3 px-3 py-md-5 px-md-5 w-100 fastcatch">
+        <div class="col-lg-6">
+          <img class="screenshot" src="img/fastcatch.png" alt="Fastcatch screenshot"/>
+        </div>
+        <div class="col-lg-6">
           <h2 class="display-5 text-white font-weight-bold portfolio-item-title">fastcatch</h2>
           <p class="text-white mb-3">
             fastcatch is a fast-paced, monochromatic arcade game developed using vanilla HTML5 canvas and JavaScript, with support for accelerometer-based controls on mobile devices. 
@@ -178,8 +192,8 @@
       </div>
     </div>
 
-    <div class="footer text-center introduction-gradient">
-      <p>© Copyright Christopher Rybicki 2020</p>
+    <div class="footer text-center">
+      <span class="white-radial-gradient-bg">© Copyright Christopher Rybicki 2020</span>
     </div>
 
     </div>
