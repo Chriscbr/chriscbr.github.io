@@ -2,9 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
-    <meta name="description" content="Christopher Rybicki is a Computer Science and Mathematics Major at University of Massachusetts Amherst.">
+    <meta name="description" content="Christopher Rybicki is a software engineer and Cornell Tech student.">
     <meta name="author" content="Christopher Rybicki">
 
     <title>Christopher Rybicki</title>
@@ -39,15 +38,17 @@
         <main role="main" class="introduction text-center">
           <img src="img/headshot.jpg" alt="Headshot" class="rounded-circle img-fluid headshot">
           <div class="white-radial-gradient-bg pt-3 px-3">
-            <h1>Christopher Rybicki.</h1>
-            <p class="lead my-0">Computer Science & Mathematics Major</p>
-            <p class="lead my-0">University of Massachusetts Amherst</p>
+            <hgroup>
+              <h1>Christopher Rybicki.</h1>
+              <h2 class="lead my-0">Student at Cornell Tech</h2>
+              <h2 class="lead my-0">Software Engineer Intern at Amazon</h2>
+            </hgroup>
             <!-- <p class="lead"> View my resume
               <a href="https://drive.google.com/file/d/0B3xSZ9hzF4ZERVVSM3k2eG5xTTQ/view?usp=sharing"><u>here</u></a>.
             </p> -->
             <!-- <p class="pt-1 my-0">Languages: Python, Java, HTML, CSS, JavaScript</p> -->
             <!-- <p class="py-0 my-0">Interests: Machine Learning, Logic, Graph Theory</p> -->
-            <p class="mt-2">
+            <address class="mt-2">
               <a href="https://twitter.com/rybickic_" target="_blank" class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x icon-bg"></i>
                 <i class="fas fa-circle fa-stack-2x icon-fg"></i>
@@ -73,18 +74,21 @@
                 <i class="fas fa-circle fa-stack-2x icon-fg"></i>
                 <i class="fas fa-file-alt fa-stack-1x"></i>
               </a>
-            </p>
+            </address>
           </div>
         </main>
       </div>
     </div>
 
-    <div class="portfolio-link animated">
-      <div><a href="#portfolio" id="portfolio-button" class="my-0 text-white">portfolio</a></div><br>
-      <a href="#portfolio" id="arrow-button"><i class="fas fa-arrow-alt-circle-down no-underline" aria-hidden="true"></i></a>
-    </div>
+    <nav class="portfolio-link animated">
+      <a href="#portfolio" id="portfolio-button" class="my-0 text-white">portfolio</a>
+      <br>
+      <a href="#portfolio" id="arrow-button">
+        <i class="fas fa-arrow-alt-circle-down no-underline" aria-hidden="true"></i>
+      </a>
+    </nav>
 
-    <div class="portfolio section d-md-flex" id="portfolio">
+    <section class="portfolio section d-md-flex" id="portfolio">
       <div class="row mx-0 py-5 px-3 px-md-5 w-100 scheme-to-wasm">
         <div class="col-lg-6">
           <img class="screenshot" src="img/scheme-to-wasm.png" alt="Scheme to WebAssembly screenshot"/>
@@ -103,11 +107,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <div class="spacer parallax section"></div>
 
-    <div class="portfolio section d-md-flex" id="portfolio">
+    <section class="portfolio section d-md-flex" id="portfolio">
       <div class="row mx-0 py-5 px-3 px-md-5 w-100 playwithme">
         <div class="col-lg-6 order-lg-2">
           <img class="screenshot" src="img/playwithme.png" alt="PlayWithMe screenshot"/>
@@ -124,11 +128,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <div class="spacer parallax section"></div>
 
-    <div class="portfolio section d-md-flex" id="portfolio">
+    <section class="portfolio section d-md-flex" id="portfolio">
       <div class="row mx-0 py-5 px-3 px-md-5 w-100 wheresbabyberk">
         <div class="col-lg-6">
           <img class="screenshot" src="img/wheresbabyberk.png" alt="Where's BabyBerk screenshot"/>
@@ -145,11 +149,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <div class="spacer parallax section"></div>
 
-    <div class="portfolio section d-md-flex" id="portfolio">
+    <section class="portfolio section d-md-flex" id="portfolio">
       <div class="row mx-0 py-5 px-3 px-md-5 w-100 elemental-2048">
         <div class="col-lg-6 order-lg-2">
           <img class="screenshot" src="img/elemental2048.png" alt="Elemental 2048 screenshot"/>
@@ -168,11 +172,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <div class="spacer parallax section"></div>
 
-    <div class="portfolio section d-md-flex" id="portfolio">
+    <section class="portfolio section d-md-flex" id="portfolio">
       <div class="row mx-0 py-5 px-3 px-md-5 w-100 fastcatch">
         <div class="col-lg-6">
           <img class="screenshot" src="img/fastcatch.png" alt="Fastcatch screenshot"/>
@@ -190,20 +194,13 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="footer text-center">
+    <footer class="footer text-center">
       <span class="white-radial-gradient-bg">© Copyright Christopher Rybicki 2020</span>
-    </div>
+    </footer>
 
     </div>
-
-   <!--  <footer class="mastfoot mt-auto">
-      <div class="inner">
-        <p>© Copyright Christopher Rybicki 2018</p>
-      </div>
-    </footer> -->
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -213,15 +210,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script>
-      jQuery(document).ready(function (){
-          $("#portfolio-button, #arrow-button").click(function(event) {
-              event.preventDefault();
-              $(".wrapper").animate({
-                  scrollTop: '+='+$("#portfolio").offset().top
-              }, 500); 
+      window.addEventListener("load", () => {
+        ["portfolio-button", "arrow-button"].forEach((id) => {
+          const el = document.getElementById(id);
+          console.log(el);
+          el.addEventListener("click", (event) => {
+            event.preventDefault();
+            document.querySelector("#portfolio").scrollIntoView({behavior: "smooth", block: "start"})
           });
+        })
       });
     </script>
     <script type="text/javascript">
