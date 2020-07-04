@@ -44,6 +44,11 @@ body {
   margin: 0 auto;
 }
 
+.languages {
+  font-size: 1rem;
+  color: #666;
+}
+
 .lead {
   line-height: 30px;
 }
