@@ -22,6 +22,12 @@ body {
   font-family: 'Noto Sans', serif;
 }
 
+.about-link {
+  /* padding: 3px 10px 3px 10px; */
+  margin: 0 5px 0 5px;
+  line-height: 40px;
+}
+
 .button-black {
   border: 2px solid #212529;
   border-radius: 10rem;
@@ -63,7 +69,7 @@ div.about {
 }
 
 div.about div.row {
-  top: 50%;
+  top: 48%;
   left: 50%;
   transform: translateY(-50%);
   position: absolute;
