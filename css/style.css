@@ -69,14 +69,12 @@ div.about {
 }
 
 div.about div.row {
-  top: 10%;
+  top: 20%;
   left: 50%;
-  transform: translateY(-50%);
   position: absolute;
   width: 980px;
   margin-left: -490px;
-  transform: translateZ(0);
-  -webkit-transform: translateZ(0);
+  transform: translate3d(0, 0, 0);
 }
 
 div.portfolio {
