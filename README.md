@@ -1,3 +1,3 @@
 Hello!
 
-This is just my personal website. It's primarily built on Bootstrap, along with Font Awesome for icons and jQuery for a scrolling animation.
+This is just my personal website. It's primarily built on Bootstrap, along with Font Awesome for icons.
