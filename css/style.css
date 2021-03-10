@@ -125,20 +125,23 @@ img.headshot {
 /*
 Portfolio
 */
-.scheme-to-wasm {
+.sprout {
   background-color: #FACB0E;
+}
+.scheme-to-wasm {
+  background-color: #AAD929;
+}
+.playwithme {
+  background-color: #1EA935;
 }
 .wheresbabyberk {
   background-color: #2998D9;
 }
-.playwithme {
-  background-color: rgb(62, 190, 68);
-}
 .elemental-2048 {
-  background-color: rgb(219, 69, 69);
+  background-color: #8a29d9;
 }
 .fastcatch {
-  background-color: rgb(138, 41, 217);
+  background-color: #db4545;
 }
 section.portfolio {
   transform: translateZ(0);
