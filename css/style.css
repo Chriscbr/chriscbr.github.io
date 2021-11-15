@@ -59,10 +59,6 @@ body {
   line-height: 30px;
 }
 
-.white-radial-gradient-bg {
-  background: radial-gradient(rgba(255,255,255, 1), rgba(255,255,255, 0.8), rgba(255,255,255,0));
-}
-
 div.about {
   height:100%;
   width:100%;
@@ -190,23 +186,7 @@ nav.portfolio-link i {
 
   width: 100%;
   /*color: rgba(0, 0, 0, .5);*/
-  background: repeating-linear-gradient(10deg,
-    transparent,
-    transparent 19px,
-    #ddd 19px,
-    #ddd 20px), repeating-linear-gradient(100deg,
-    transparent,
-    transparent 19px,
-    #ddd 19px,
-    #ddd 20px), repeating-linear-gradient(10deg,
-    transparent,
-    transparent 98px,
-    #ddd 98px,
-    #ddd 100px), repeating-linear-gradient(100deg,
-    transparent,
-    transparent 98px,
-    #ddd 98px,
-    #ddd 100px);
+  background: #eeeeee;
 }
 
 /*
@@ -267,30 +247,14 @@ nav.portfolio-link i {
 
 .spacer::after, .about::after {
   width: 100%;
-  background: repeating-linear-gradient(10deg,
-    transparent,
-    transparent 19px,
-    #ddd 19px,
-    #ddd 20px), repeating-linear-gradient(100deg,
-    transparent,
-    transparent 19px,
-    #ddd 19px,
-    #ddd 20px), repeating-linear-gradient(10deg,
-    transparent,
-    transparent 98px,
-    #ddd 98px,
-    #ddd 100px), repeating-linear-gradient(100deg,
-    transparent,
-    transparent 98px,
-    #ddd 98px,
-    #ddd 100px);
+  background: #eeeeee;
 }
 
 /*
  * Pictures
  */
 .screenshot {
-  max-height: 20em;
+  max-height: 15em;
   max-width: 100%;
   display: block;
   margin: 0 auto;
