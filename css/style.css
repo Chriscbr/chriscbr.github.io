@@ -114,9 +114,9 @@ img.headshot {
   animation: float 4s ease-in-out infinite;
 }
 
-/* #arrow-button {
+#arrow-button {
   font-size: 20px;
-} */
+}
 
 /*
 Portfolio
@@ -166,17 +166,8 @@ nav.portfolio-link #portfolio-button {
   padding: .2em .7em;
   border-radius: 10rem;
   display: inline-block;
-  background-color: #2998D9;
   font-weight: 500;
   font-size: 125%;
-  color: #fff;
-}
-nav.portfolio-link i {
-  display: block;
-  color: #2998D9;
-  margin: 0.5em auto;
-  text-decoration: none;
-  font-size: 24px;
 }
 
 /*
