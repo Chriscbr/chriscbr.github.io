@@ -178,8 +178,7 @@ nav.portfolio-link #portfolio-button {
   height: 8vh;
   line-height: 8vh; /* vertical centering */
   width: 100%;
-  color: rgba(0, 0, 0, .5);
-  background: #eeeeee;
+  background: #ddd;
 }
 
 /*
