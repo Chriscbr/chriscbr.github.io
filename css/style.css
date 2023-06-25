@@ -119,22 +119,31 @@ img.headshot {
 Portfolio
 */
 .word-comebacks {
-  background-color: #54d2d2 ;
+  background-color: #69A4BA;
 }
 .scheme-to-wasm {
-  background-color: #ffcb00;
+  background-color: #70a9a1;
 }
 .playwithme {
-  background-color: #f8aa4b;
+  background-color: #9ec1a3;
 }
 .wheresbabyberk {
-  background-color: #ff6150;
+  background-color: #69A4BA;
 }
 .elemental-2048 {
-  background-color: #54d2d2;
+  background-color: #70a9a1;
 }
 .fastcatch {
-  background-color: #ffcb00;
+  background-color: #9ec1a3;
+}
+
+div.portfolio {
+  border-top: 3px solid #222;
+  border-bottom: 3px solid #222;
+}
+
+div.portfolio ~ div.portfolio {
+  border-top: none;
 }
 
 div.portfolio-link {
