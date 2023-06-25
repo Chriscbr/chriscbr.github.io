@@ -31,7 +31,7 @@
   <body>
 
     <div class="about">
-      <div class="row">
+      <div class="intro">
         <main role="main" class="introduction text-center">
           <img src="img/profile-pic-pixel.png" alt="Headshot" class="rounded-circle img-fluid headshot">
           <div class="pt-3 px-3">
@@ -67,17 +67,17 @@
           </div>
         </main>
       </div>
+
+      <div class="portfolio-link animated">
+        <p id="portfolio-button" class="my-0 text-black">portfolio</p>
+        <br>
+        <p id="arrow-button">
+          <i class="fas fa-arrow-down no-underline" aria-hidden="true"></i>
+        </p>
+      </div>
     </div>
 
-    <nav class="portfolio-link animated">
-      <p id="portfolio-button" class="my-0 text-black">portfolio</p>
-      <br>
-      <p id="arrow-button">
-        <i class="fas fa-arrow-down no-underline" aria-hidden="true"></i>
-      </p>
-    </nav>
-
-    <section class="portfolio section d-md-flex" id="portfolio">
+    <div class="portfolio">
       <div class="row mx-0 py-5 px-3 px-md-5 w-100 word-comebacks">
         <div class="col-lg-6 order-lg-2">
           <img class="screenshot" src="img/word-comebacks.png" alt="Words Making Comebacks tweet screenshot"/>
@@ -93,9 +93,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <section class="portfolio section d-md-flex" id="portfolio">
+    <div class="portfolio">
       <div class="row mx-0 py-5 px-3 px-md-5 w-100 scheme-to-wasm">
         <div class="col-lg-6">
           <img class="screenshot" src="img/scheme-to-wasm.png" alt="Scheme to WebAssembly screenshot"/>
@@ -112,11 +112,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <div class="spacer parallax section"></div>
-
-    <section class="portfolio section d-md-flex" id="portfolio">
+    <div class="portfolio">
       <div class="row mx-0 py-5 px-3 px-md-5 w-100 playwithme">
         <div class="col-lg-6 order-lg-2">
           <img class="screenshot" src="img/playwithme.png" alt="PlayWithMe app screenshot"/>
@@ -132,11 +130,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <div class="spacer parallax section"></div>
-
-    <section class="portfolio section d-md-flex" id="portfolio">
+    <div class="portfolio">
       <div class="row mx-0 py-5 px-3 px-md-5 w-100 wheresbabyberk">
         <div class="col-lg-6">
           <img class="screenshot" src="img/wheresbabyberk.png" alt="Where's BabyBerk website screenshot"/>
@@ -152,11 +148,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <div class="spacer parallax section"></div>
-
-    <section class="portfolio section d-md-flex" id="portfolio">
+    <div class="portfolio">
       <div class="row mx-0 py-5 px-3 px-md-5 w-100 elemental-2048">
         <div class="col-lg-6 order-lg-2">
           <img class="screenshot" src="img/elemental2048.png" alt="Elemental 2048 game screenshot"/>
@@ -174,11 +168,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <div class="spacer parallax section"></div>
-
-    <section class="portfolio section d-md-flex" id="portfolio">
+    <div class="portfolio">
       <div class="row mx-0 py-5 px-3 px-md-5 w-100 fastcatch">
         <div class="col-lg-6">
           <img class="screenshot" src="img/fastcatch.png" alt="Fastcatch game screenshot"/>
@@ -196,7 +188,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
     <footer class="footer text-center text-black">
       <span>© Copyright Christopher Rybicki 2021</span>

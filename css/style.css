@@ -15,6 +15,7 @@ a:hover {
 
 html {
   height: 100%;
+  background-color: #ddd;
 }
 
 body {
@@ -30,14 +31,14 @@ body {
 
 .button-black {
   border: 2px solid #212529;
-  border-radius: 10rem;
+  border-radius: 8px;
   padding: 3px 10px 3px 10px;
   margin: 0 5px 0 5px;
 }
 
 .button-white {
   border: 2px solid #fff;
-  border-radius: 10rem;
+  border-radius: 8px;
   padding: 3px 10px 3px 10px;
   margin: 0 5px 0 5px;
 }
@@ -60,22 +61,14 @@ body {
 }
 
 div.about {
-  height: 100vh;
   width: 100%;
   background-color: #ddd;
 }
 
-div.about div.row {
-  top: 20%;
-  left: 50%;
-  position: absolute;
-  width: 980px;
-  margin-left: -490px;
+div.about div.intro {
+  padding-top: 5em;
+  width: 100%;
   transform: translate3d(0, 0, 0);
-}
-
-div.portfolio {
-  position: relative;
 }
 
 @media (max-width: 992px) {
@@ -84,10 +77,10 @@ div.portfolio {
     position: relative;
     text-align: center;
   }
-  div.about div.row {
+  div.about div.intro {
     width: 100%;
-    left:0px;
-    margin-left:0px;
+    left: 0px;
+    margin-left: 0px;
   }
 }
 
@@ -140,32 +133,17 @@ Portfolio
 .fastcatch {
   background-color: #db4545;
 }
-section.portfolio {
-  transform: translateZ(0);
-  position: relative;
-  z-index: 2;
-  padding: -4em 0;
-}
-nav.portfolio-link {
-  text-align:center;
-  position: absolute;
-  bottom: 25px;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  z-index: 5;
+
+div.portfolio-link {
+  text-align: center;
+  width: 100%;
+  padding: 3em 0 1em 0;
   display: block;
+}
+div.portfolio-link a:hover {
   text-decoration: none;
 }
-nav.portfolio-link a:hover {
-  text-decoration: none;
-}
-nav.portfolio-link #portfolio-button {
-  display: block;
-  margin: 0;
-  padding: .2em .7em;
-  border-radius: 10rem;
+div.portfolio-link #portfolio-button {
   display: inline-block;
   font-weight: 500;
   font-size: 125%;
