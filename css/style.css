@@ -26,7 +26,7 @@ body {
 
 .about-link {
   /* padding: 3px 10px 3px 10px; */
-  margin: 0 5px 0 5px;
+  padding: 5px 5px 5px 5px;
   line-height: 20px;
 }
 
@@ -149,7 +149,7 @@ div.portfolio ~ div.portfolio {
 div.portfolio-link {
   text-align: center;
   width: 100%;
-  padding: 3em 0 1em 0;
+  margin: 3em 0 1em 0;
   display: block;
 }
 div.portfolio-link a:hover {
